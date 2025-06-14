@@ -16,6 +16,7 @@ body
 .container {
   max-width: 600px;
   margin: auto;
+  margin-right: 10px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("eth.png");
   padding: 25px;
   border-radius: 10px;
@@ -37,7 +38,6 @@ textarea {
   resize: vertical;
   background-color: #afda91;
   color: black;
-  margin-right: 10px;
 }
 
 button {

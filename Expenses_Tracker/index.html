@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon_03.png" type="image/png">
+  <title>Expenses 💰💳⚖ Tracker</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Expenses 💰💳⚖ Tracker</h2>
+
+    <input type="text" id="description" placeholder="Expense Description" />
+    <input type="number" id="amount" placeholder="Amount" />
+    <select id="category">
+      <option value="Food">Food</option>
+      <option value="Transport">Transport</option>
+      <option value="Utilities">Utilities</option>
+    </select>
+    <button onclick="addExpense()">Add Expense</button>
+
+    <div class="filter-section">
+      <label for="filter">Filter by Category:</label>
+      <select id="filter" onchange="filterExpenses()">
+        <option value="All">All</option>
+        <option value="Food">Food</option>
+        <option value="Transport">Transport</option>
+        <option value="Utilities">Utilities</option>
+      </select>
+    </div>
+
+    <div id="expenses-list"></div>
+    <div class="total" id="total">Total: $0</div>
+    <div id="warning" class="warning"></div>
+  </div>
+   <script src="script.js"></script>
+</body>
+</html>

@@ -37,6 +37,7 @@ textarea {
   resize: vertical;
   background-color: #afda91;
   color: black;
+  margin-right: 10px;
 }
 
 button {

@@ -15,8 +15,7 @@ body
 
 .container {
   max-width: 600px;
-  margin-left: auto;
-  margin-right: 10px; 
+  margin: auto;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("eth.png");
   padding: 25px;
   border-radius: 10px;

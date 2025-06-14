@@ -18,7 +18,7 @@ body
   margin: auto;
   margin-right: 10px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("eth.png");
-  padding: 25px;
+/*  padding: 25px;*/
   padding-right: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

@@ -2,11 +2,12 @@
       font-family: Arial, sans-serif;
       color: beige;
       padding: 2rem;
+      box-sizing: border-box;
       background-color: gray;
     }
     .container {
-      max-width: 700px;
-      margin: auto;
+      max-width: 600px;
+      margin:0 auto;
       background: rgb(94, 75, 75);
       padding: 20px;
       border-radius: 10px;
@@ -15,7 +16,16 @@
     h2 {
       text-align: center;
     }
-    input, select, button {
+    #description,
+    #amount {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+     }
+     select, button {
       width: 96%;
       margin: 10px  5px ;
       padding: 10px;

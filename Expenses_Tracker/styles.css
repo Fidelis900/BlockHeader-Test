@@ -3,7 +3,7 @@
 *::after {
       font-family: Arial, sans-serif;
       color: beige;
-      border-radius:10px;
+      border-radius:6px;
       box-sizing: border-box;
       background-color: gray;
     }
@@ -52,7 +52,7 @@
     }
     .total {
       font-size: 1.2em;
-      margin-top: 10px;
+      margin: 10px;
     }
 
     button {

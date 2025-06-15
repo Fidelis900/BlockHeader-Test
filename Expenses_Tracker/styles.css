@@ -3,6 +3,7 @@
 *::after {
       font-family: Arial, sans-serif;
       color: beige;
+      border-radius:10px;
       box-sizing: border-box;
       background-color: gray;
     }

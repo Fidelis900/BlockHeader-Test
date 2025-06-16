@@ -19,11 +19,7 @@
     h2 {
       text-align: center;
     }
-    .threshold {
-        margin-top: 10px;
-        font-weight: bold;
-        width: 100% ;
-      }
+
 
      #description,
      #amount {
@@ -57,7 +53,7 @@
       margin-top: 10px;
       margin-bottom: 10px;
     }
-    .total {
+    .total .threshold {
       font-size: 1.5em;
       margin-top: 1rem;
       width: 100%;

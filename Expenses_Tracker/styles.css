@@ -2,7 +2,7 @@
 *::before,
 *::after {
       font-family: Arial, sans-serif;
-      color: beige;
+      /*color: beige;*/
       border-radius:6px;
       box-sizing: border-box;
       background-color: gray;
@@ -19,14 +19,20 @@
     h2 {
       text-align: center;
     }
-    #description,
-    #amount {
-    width: 100%;
-    padding: 0.75rem;
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+    .threshold {
+        margin-top: 10px;
+        font-weight: bold;
+        /*color: #555;*/
+      }
+
+     #description,
+     #amount {
+       width: 100%;
+       padding: 0.75rem;
+       margin-bottom: 1rem;
+       font-size: 1rem;
+       border: 1px solid #ccc;
+       border-radius: 6px;
      }
      select, button {
       width: 96%;

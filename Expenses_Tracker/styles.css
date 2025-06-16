@@ -2,7 +2,7 @@
 *::before,
 *::after {
       font-family: Arial, sans-serif;
-      /*color: beige;*/
+      
       border-radius:6px;
       box-sizing: border-box;
       background-color: gray;
@@ -22,7 +22,7 @@
     .threshold {
         margin-top: 10px;
         font-weight: bold;
-        /*color: #555;*/
+        width: 100% ;
       }
 
      #description,
